@@ -1,0 +1,8 @@
+<h1>Landmarks Index</h1>
+
+<% @landmarks.each do |landmark| %>
+  <h2><%= "#{landmark.name}" %></h2>
+  <p>
+    <%= "#{landmark.year_completed}" %>
+  </p>
+<% end %>
